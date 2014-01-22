@@ -1,0 +1,273 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Jquery Example</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="common.js" type ="text/javascript"></script>
+<link href="main.css" rel="stylesheet" media="screen">
+<link href="navigation.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<!--start header section-->
+<header>
+<div id ="logo"><img src="spinologo.gif" alt="logo"></div>
+
+<div style="width:960px;margin:0 auto;padding:px;float:right;">
+<ul id="navmenu">
+<li><a href="#">Home</a></li>
+<li><a href="#">Services</a><span class="darrow">&#9660;</span>
+<ul class="sub1">
+<li><a href="#">Healthcare</a></li>
+<li><a href="#">Banking</a></li>
+<li><a href="#">Insurance</a></li>
+</ul>
+</li>
+<li><a href="#">Products</a></li>
+<li><a href="#">Careers</a><span class="darrow">&#9660;</span>
+<ul class="sub1">
+<li><a href="#">Employment</a></li>
+<li><a href="#">Career Counsel</a></li>
+<li><a href="#">Post Resume</a><span class="rarrow">&#9654;</span>
+<ul class="sub2">
+	 <li><a href="#">Edit online</a></li>
+		<li><a href="#">Save</a></li>
+	<li><a href="#">Delete</a></li>
+		</ul>
+		 </li>
+		</ul>
+		 </li>
+	<li><a href="#">Contact Us</a><span class="darrow">&#9660;</span>
+    <ul class="sub1">
+<li><a href="http://www.youtube.com">Youtube</a></li>
+<li><a href="http://www.facebook.com">Facebook</a></li>
+<li><a href="http://www.twitter.com">Twitter</a></li>
+</ul>
+    </li>
+	</ul>
+    </div>
+</header>
+<!--End the header Section-->
+<!--Start Body Section-->
+<section class="wrapper">
+<!--Start the body left section-->
+<nav class="wrapperLeft">
+<ul>
+<li><a href="#" ref ="nav1">HTML</a></li>
+<li><a href="#" ref ="nav2">CSS</a></li>
+<li><a href="#" ref ="nav3">JavaScript</a></li>
+<li><a href="#" ref ="nav4">Jquery</a></li>
+<li><a href="#" ref ="nav5">Ajax</a></li>
+<li><a href="#" ref ="nav6">Json</a></li>
+<li><a href="#" ref ="nav7">PHP</a></li>
+<li><a href="#" ref ="nav8">ASP.net</a></li>
+</ul>
+</nav>
+<!--End the body left section-->
+<!--start the body right section-->
+<aside class="wrapperRight">
+<div id="default" class="content"><b style="font-size:20px">Select the navigation link to see the details content.</b></div>
+<div id="nav1" class="content"><b><img src="htmls.jpg"
+width ="60" height="60" alt="html"><br>HTML is a language for describing web pages:</b><br><br>
+<ul>
+<li>HTML</b> stands
+for:H-<em>Hyper</em>T-<sup>Text</sup>M-<sub>Markup</sub>L-<strong>Language</strong></li>
+<li>HTML is a markup language</li>
+<li>A markup language is a set of markup tags</li>
+<li>The tags describe document content</li>
+<li>HTML documents contain HTML tags and plain text</li>
+</ul>
+</div>
+<div id="nav2" class="content"><b>What is CSS?</b><br><br>
+<ul>
+<li>CSS stands for Cascading Style Sheets</li>
+<li>Styles define how to display HTML elements</li>
+<li>Styles were added to HTML 4.0 to solve a problem</li>
+<li>External Style Sheets can save a lot of work</li>
+<li>External Style Sheets are stored in CSS files</li></ul></div>
+<div id="nav3" class="content"><b>JavaScript is the world's most popular programming language.</b><br><br>
+<ul>
+<li>It is the language for HTML, for the web, for servers, PCs, laptops, tablets, phones, and more.</li>
+<li>JavaScript is a Scripting Language</li>
+<li>A scripting language is a lightweight programming language.</li>
+<li>JavaScript is programming code that can be inserted into HTML pages.</li>
+<li>JavaScript code can be executed by all modern web browsers.</li>
+<li>JavaScript is easy to learn.</li></ul>
+</div>
+<div id="nav4" class="content"><b>What is jQuery?</b><br><br>
+<ul>
+<li>jQuery is a lightweight, "write less, do more", JavaScript library.</li>
+<li>The purpose of jQuery is to make it much easier to use JavaScript on your website.</li>
+<li>jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish, and wraps them into methods that you can call with a single line of code.</li>
+
+<li>jQuery also simplifies a lot of the complicated things from JavaScript, like AJAX calls and DOM manipulation.</li>
+<li>The jQuery library contains the following features:</li></ul>
+<ol style="font-size:16px; color:white; padding-left:20px";>
+<li>HTML/DOM manipulation</li>
+<li>CSS manipulation</li>
+<li>HTML event methods</li>
+<li>Effects and animations</li>
+<li>AJAX</li>
+</li></ol></div>
+<div id="nav5" class="content"><b>What is AJAX?</b><br><br>
+<ul>
+<li>AJAX = Asynchronous JavaScript and XML.</li>
+<li>In short; AJAX is about loading data in the background and display it on the webpage, without reloading the whole page.</li>
+<li>Examples of applications using AJAX: Gmail, Google Maps, Youtube, and Facebook tabs.</li></ul><br><br>
+<b>What About jQuery and AJAX?</b>
+<p>jQuery provides several methods for AJAX functionality.
+With the jQuery AJAX methods, you can request text, HTML, XML, or JSON from a remote server using both HTTP Get and HTTP Post - And you can load the external data directly into the selected HTML elements of your web page!</p></div>
+<div id="nav6" class="content"><b>What is JSON?</b><br><br>
+<ul>
+<li>JSON stands for <b>JavaScript Object Notation.</b></li>
+<li>JSON is lightweight text-data interchange format</li>
+<li>JSON is language independent *
+JSON is "self-describing" and easy to understand
+*	JSON uses JavaScript syntax for describing data objects, but JSON is still language and platform independent. JSON parsers and JSON libraries exists for many different programming languages.</li></ul></div>
+<div id="nav7" class="content"><b>What is PHP?</b><br><br>
+<ul>
+<li>PHP is an acronym for "PHP Hypertext Preprocessor"</li>
+<li>PHP is a widely-used, open source scripting language</li>
+<li>PHP scripts are executed on the server</li>
+<li>PHP costs nothing, it is free to download and use</li></ul><br><br>
+<b>What is a PHP File?</b>
+<ul>
+<li>PHP files can contain text, HTML, CSS, JavaScript, and PHP code</li>
+<li>PHP code are executed on the server, and the result is returned to the browser as plain HTML</li>
+<li>PHP files have extension ".php"</li></ul></div>
+<div id="nav8" class="content"><b>ASP.NET</b><br><br>
+<ul>
+<li>ASP.NET is a new ASP generation. It is not compatible with Classic ASP, but ASP.NET may include Classic ASP.</li>
+
+<li>ASP.NET pages are compiled, which makes them faster than Classic ASP.</li>
+
+<li>ASP.NET has better language support, a large set of user controls, XML-based components, and integrated user authentication.</li>
+
+<li>ASP.NET pages have the extension .aspx, and are normally written in VB (Visual Basic) or C# (C sharp).</li>
+
+<li>User controls in ASP.NET can be written in different languages, including C++ and Java.</li>
+
+<li>When a browser requests an ASP.NET file, the ASP.NET engine reads the file, compiles and executes the scripts in the file, and returns the result to the browser as plain HTML.</li></ul>
+
+</div>
+</aside>
+<!--End the body right section-->
+<!--start the footer section-->
+</section>
+
+<div class="clear"></div>
+
+<aside>
+
+<?php
+// define variables and set to empty values
+$nameErr = $emailErr = $genderErr = $websiteErr = "";
+$name = $email = $gender = $comment = $website = "";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST")
+{
+   if (empty($_POST["name"]))
+     {$nameErr = "Name is required";}
+   else
+     {
+     $name = test_input($_POST["name"]);
+     // check if name only contains letters and whitespace
+     if (!preg_match("/^[a-zA-Z ]*$/",$name))
+       {
+       $nameErr = "Only letters and white space allowed"; 
+       }
+     }
+   
+   if (empty($_POST["email"]))
+     {$emailErr = "Email is required";}
+   else
+     {
+     $email = test_input($_POST["email"]);
+     // check if e-mail address syntax is valid
+     if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/",$email))
+       {
+       $emailErr = "Invalid email format"; 
+       }
+     }
+     
+   if (empty($_POST["website"]))
+     {$website = "";}
+   else
+     {
+     $website = test_input($_POST["website"]);
+     // check if URL address syntax is valid (this regular expression also allows dashes in the URL)
+     if (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i",$website))
+       {
+       $websiteErr = "Invalid URL"; 
+       }
+     }
+
+   if (empty($_POST["comment"]))
+     {$comment = "";}
+   else
+     {$comment = test_input($_POST["comment"]);}
+
+   if (empty($_POST["gender"]))
+     {$genderErr = "Gender is required";}
+   else
+     {$gender = test_input($_POST["gender"]);}
+}
+
+function test_input($data)
+{
+     $data = trim($data);
+     $data = stripslashes($data);
+     $data = htmlspecialchars($data);
+     return $data;
+}
+?>
+<!--<p><span class="error">* required field.</span></p>-->
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"])?>">
+<fieldset name="personalia" style="float:right; width=50%;height=180px;background:#707070; margin-bottom:80px"><legend>Personal Information:</legend>
+  
+   Name: <input type="text" name="name">
+   <span class="error">* <?php echo $nameErr;?></span>
+   <br><br>
+   E-mail: <input type="text" name="email">
+   <span class="error">* <?php echo $emailErr;?></span>
+   <br><br>
+   Website: <input type="text" name="website">
+   <span class="error"><?php echo $websiteErr;?></span>
+   <br><br>
+   Comment: <textarea name="comment" rows="5" cols="40"></textarea>
+   <br><br>
+   Gender:
+   <input type="radio" name="gender" value="female">Female
+   <input type="radio" name="gender" value="male">Male
+   <span class="error">* <?php echo $genderErr;?></span>
+   <br><br>
+   <input type="submit" name="submit" value="Submit"> 
+</fieldset>
+</form>
+<!--
+<?php
+echo "<h2>Your Input:</h2>";
+echo $name;
+echo "<br>";
+echo $email;
+echo "<br>";
+echo $website;
+echo "<br>";
+echo $comment;
+echo "<br>";
+echo $gender;
+?> -->
+</aside>
+
+<footer>
+<p class="lk" "><a href="#">Home | </a><a href="#">About Us  |</a><a href="#">Articles | </a><a href="#">Services | </a><a href="#"> Contact Us</a></p>
+<p class="cp">Copyright © SSHussain. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
+
+
+  
+
+
