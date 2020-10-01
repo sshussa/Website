@@ -1,89 +1,105 @@
 @charset "utf-8";
 /* Reset rule */
-*{padding:0;
-margin:0;
-}
-body {
-	font-family:verdana;
-	background-color:#ABC;
-	padding:30px;
-	}
-	h1{
-		text-align:center;
-		border-bottom: 2px solid #009;
-		margin-bottom: 60px;
-		}
-		ul#navmenu, ul.sub1, ul.sub2 {
-			list-style-type:none;
-			font-size:10pt;
-			}
-			ul#navmenu li{
-				text-align:center;
-				width:125px;
-				position:relative;
-				float:right;
-				margin-right:4px;
 
-				
-				}
-				ul#navmenu a{
-					text-decoration:none;
-					display:block;
-					width:120px;
-					height:25px;
-					line-height:17px;
-					background-color:#FFF;
-					border: 1px solid #CCC;
-					border-radius:5px;
-					color:#000;
-					}
-					ul#navmenu .sub1 a{
-						margin-top:5px;
-						}
-						ul#navmenu .sub2 a{
-						margin-top:5px;
-						}
-						
-				ul#navmenu .sub2 a{
-					margin-left:20px;
-					}
-					ul#navmenu li:hover>a{
-						background-color:#09F;
-						}
-						ul#navmenu li:hover a:hover{
-							background-color:#FF0;
-							}
-							ul#navmenu ul.sub1 {
-								display:none;
-								position:absolute;
-								top:30px;
-								left:0;
-								}
-								ul#navmenu ul.sub2{
-									display:none;
-									position:absolute;
-									top:0;
-									left:110px;
-									}
-									ul#navmenu li:hover .sub1{
-										display:block;
-										}
-										ul#navmenu .sub1 li:hover .sub2{
-											display:block;
-											}
-											.darrow {
-												font-size:9pt;
-												position:absolute;
-												top:4px;
-												right:5px;
-												}
-												.rarrow {
-												font-size:9pt;
-												position:absolute;
-												top:6px;
-												right:5px;
-												}
-												div#nav1, div#nav2, div#nav3, div#nav4,div#nav5,div#nav6,div#nav7,div#nav8{
-												font-size:large;
-color:white
-												}
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: verdana;
+	background-color: #ABC;
+	padding: 30px;
+}
+
+h1 {
+	text-align: center;
+	border-bottom: 2px solid #009;
+	margin-bottom: 60px;
+}
+
+ul#navmenu, ul.sub1, ul.sub2 {
+	list-style-type: none;
+	font-size: 10pt;
+}
+
+ul#navmenu li {
+	text-align: center;
+	width: 125px;
+	position: relative;
+	float: right;
+	margin-right: 4px;
+}
+
+ul#navmenu a {
+	text-decoration: none;
+	display: block;
+	width: 120px;
+	height: 25px;
+	line-height: 17px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	color: #000;
+}
+
+ul#navmenu .sub1 a {
+	margin-top: 5px;
+}
+
+ul#navmenu .sub2 a {
+	margin-top: 5px;
+}
+
+ul#navmenu .sub2 a {
+	margin-left: 20px;
+}
+
+ul#navmenu li:hover>a {
+	background-color: #09F;
+}
+
+ul#navmenu li:hover a:hover {
+	background-color: #FF0;
+}
+
+ul#navmenu ul.sub1 {
+	display: none;
+	position: absolute;
+	top: 30px;
+	left: 0;
+}
+
+ul#navmenu ul.sub2 {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 110px;
+}
+
+ul#navmenu li:hover .sub1 {
+	display: block;
+}
+
+ul#navmenu .sub1 li:hover .sub2 {
+	display: block;
+}
+
+.darrow {
+	font-size: 9pt;
+	position: absolute;
+	top: 4px;
+	right: 5px;
+}
+
+.rarrow {
+	font-size: 9pt;
+	position: absolute;
+	top: 6px;
+	right: 5px;
+}
+
+div#nav1, div#nav2, div#nav3, div#nav4, div#nav5, div#nav6, div#nav7, div#nav8 {
+	font-size: large;
+	color: white
+}
