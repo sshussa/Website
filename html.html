@@ -223,26 +223,31 @@ function test_input($data)
 }
 ?>
 <!--<p><span class="error">* required field.</span></p>-->
-<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"])?>">
-<fieldset name="personalia" style="float:right; width=50%;height=180px;background:#707070; margin-bottom:80px"><legend>Personal Information:</legend>
+<form method="post" action='<?php echo htmlspecialchars($_SERVER["PHP_SELF"])?>' >
+<fieldset name="personalia" style="float:right; width:30%;height:auto;background:#707070; margin-bottom:30px; padding: 20px; font-size: 14px;">
+  <h3>Personal Information:</h3>
   
-   Name: <input type="text" name="name">
+  <label for="name">Name</label>
+   <input type="text" name="name">
    <span class="error">* <?php echo $nameErr;?></span>
-   <br><br>
-   E-mail: <input type="text" name="email">
+
+   <label for="email">Email</label>
+   <input type="text" name="email">
    <span class="error">* <?php echo $emailErr;?></span>
-   <br><br>
-   Website: <input type="text" name="website">
+   <br>
+   <label for="website">Website</label>
+   <input type="text" name="website">
    <span class="error"><?php echo $websiteErr;?></span>
    <br><br>
-   Comment: <textarea name="comment" rows="5" cols="40"></textarea>
+   <label for="comment">Comment</label>
+   <textarea name="comment" rows="5" cols="40"></textarea>
    <br><br>
    Gender:
    <input type="radio" name="gender" value="female">Female
    <input type="radio" name="gender" value="male">Male
    <span class="error">* <?php echo $genderErr;?></span>
    <br><br>
-   <input type="submit" name="submit" value="Submit"> 
+   <input type="submit" name="submit" value="Submit" style="padding: 5px 8px;"> 
 </fieldset>
 </form>
 <!--
